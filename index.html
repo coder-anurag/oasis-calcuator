@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" placeholder="0" id="outputscreen">
+            <button style="background-color: #a2d0fa; font-size: 30px;" onclick="display('(')">(</button>
+            <button style="background-color: #a2d0fa; font-size: 30px;" onclick="display(')')">)</button>
+            <button style="background-color: #a2d0fa; font-size: 20px;" onclick="calculate()">ans</button>
+            <button style="background-color: #a2d0fa; font-size: 20px;" onclick="del()">del</button>
+            <button style="background-color: #a2d0fa; font-size: 20px;" onclick="Clear()">clear</button>
+            <button style="background-color: #cce5ff; font-size: 30px;" onclick="display('7')">7</button>
+            <button style="background-color: #cce5ff; font-size: 30px;" onclick="display('8')">8</button>
+            <button style="background-color: #cce5ff; font-size: 30px;" onclick="display('9')">9</button>            
+            <button style="background-color: #a2d0fa; font-size: 30px;" onclick="display('%')">%</button>
+            <button style="background-color: #a2d0fa; font-size: 30px;" onclick="display('%')">&#8730;</button>
+            <button style="background-color: #cce5ff; font-size: 30px;" onclick="display('4')">4</button>
+            <button style="background-color: #cce5ff; font-size: 30px;" onclick="display('5')">5</button>
+            <button style="background-color: #cce5ff; font-size: 30px;" onclick="display('6')">6</button>                         
+            <button style="background-color: #a2d0fa; font-size: 30px;" onclick="display('*')">x</button>           
+            <button style="background-color: #a2d0fa; font-size: 30px;" onclick="display('/')">&#247;</button>
+            <button style="background-color: #cce5ff; font-size: 30px;" onclick="display('1')">1</button>
+            <button style="background-color: #cce5ff; font-size: 30px;" onclick="display('2')">2</button>
+            <button style="background-color: #cce5ff; font-size: 30px;" onclick="display('3')">3</button>
+            <button style="background-color: #a2d0fa; font-size: 30px;" onclick="display('+')">+</button>
+            <button style="background-color: #a2d0fa; font-size: 30px;" onclick="display('-')">-</button>
+            <button style="background-color: #a2d0fa; font-size: 30px;" onclick="display('.')">.</button>
+            <button style="background-color: #cce5ff; font-size: 30px;" onclick="display('0')">0</button>
+            <button style="background-color: #a2d0fa; font-size: 30px;" onclick="display('0')">&#177;</button>
+            <button style="font-size: 20px;" onclick="calculate()" class="equal">ENTER</button>
+        </div>
+    </div>
+
+    <Script src="script.js"></Script>
+</body>
+
+</html>
